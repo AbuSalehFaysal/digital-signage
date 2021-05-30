@@ -596,7 +596,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h2 {
+.about .content .feature h2 {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
