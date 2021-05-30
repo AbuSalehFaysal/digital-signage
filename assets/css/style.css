@@ -323,11 +323,13 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: 90%;
   height: 100vh;
   background-color: rgba(63, 73, 83, 0.8);
   overflow: hidden;
   position: relative;
+  /* margin-right: 100px; */
+  margin: 0 auto;
 }
 
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
