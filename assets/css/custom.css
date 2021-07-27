@@ -21,3 +21,8 @@
     height: 12px;
 }
 
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+}
+
