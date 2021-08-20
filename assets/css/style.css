@@ -662,6 +662,15 @@ section {
   transform: scale(1.05);
 }
 
+.featureshover {
+  transition: all 0.4s ease-in-out;
+}
+
+.featureshover:hover {
+  filter: none;
+  transform: scale(1.05);
+}
+
 @media (max-width: 768px) {
   .clients img {
     max-width: 40%;
