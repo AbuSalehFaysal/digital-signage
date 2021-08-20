@@ -653,6 +653,15 @@ section {
   transform: scale(1.15);
 }
 
+.products img {
+  transition: all 0.4s ease-in-out;
+}
+
+.products img:hover {
+  filter: none;
+  transform: scale(1.05);
+}
+
 @media (max-width: 768px) {
   .clients img {
     max-width: 40%;
