@@ -38,6 +38,12 @@
       content: '';
       background-color: transparent;
     }
+
+    @media only screen and (max-width: 415px) {
+      #hero {
+        height: 50vh;
+      }
+    }
   </style>
 
   <!-- =======================================================
@@ -149,7 +155,7 @@
   <main id="main">
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" style="height: 80vh;">
+    <section id="hero">
       <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
         <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
@@ -157,41 +163,23 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active"
-            style="background-image: url(assets/img/retail/j1.jpeg); background-size: contain; margin-top: 12rem; width: 100%; background-color: #ffffff;">
-            <div class="carousel-container mt-5">
-              <div class="container mt-5">
-                <!-- <h2 class="animate__animated animate__fadeInDown mt-5"><span class="red">AFLAX: RETAIL</span> <br>
-                  Are you looking to create a dynamic in-store experience with Digital Store Signage?
-                </h2> -->
-              </div>
-            </div>
+          <div class="carousel-item active" style="background-color: #ffffff;">
+            <img class="img-fluid" style="margin-top: 300px;" src="assets/img/retail/j1.jpeg" alt="">
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item"
-            style="background-image: url(assets/img/retail/j2.jpeg); background-size: contain; margin-top: 12rem; width: 100%; background-color: #ffffff;">
-            <div class="carousel-container mt-5">
-              <div class="container mt-5">
-                <!-- <h2 class="animate__animated animate__fadeInDown mt-5"><span class="red">AFLAX: RETAIL</span> <br>
-                  We will provide you with a solution that promises to increase customer engagement and boost sales.
-                </h2> -->
-              </div>
-            </div>
+          <div class="carousel-item" style="background-color: #ffffff;">
+            <img class="img-fluid" style="margin-top: 300px;" src="assets/img/retail/j2.jpeg"
+              alt="">
           </div>
 
+
           <!-- Slide 3 -->
-          <div class="carousel-item"
-            style="background-image: url(assets/img/retail/j3.jpeg); background-size: contain; margin-top: 12rem; width: 100%; background-color: #ffffff;">
-            <div class="carousel-container mt-5">
-              <div class="container mt-5">
-                <!-- <h2 class="animate__animated animate__fadeInDown mt-5"><span class="red">AFLAX: RETAIL</span> <br>Put
-                  your
-                  customers in the mood to buy.
-                </h2> -->
-              </div>
-            </div>
+          <div class="carousel-item" style="background-color: #ffffff;">
+            <img class="img-fluid" style="margin-top: 300px;" src="assets/img/retail/j3.jpeg"
+              alt="">
           </div>
+
 
         </div>
 
