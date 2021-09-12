@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #d9232d;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .navbar .dropdown:hover > ul {
