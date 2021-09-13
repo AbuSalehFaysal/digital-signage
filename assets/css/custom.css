@@ -34,3 +34,12 @@ ul.no-bullets {
     background-color: #f6f6f6!important;
 }
 
+.item img {
+    transition: all 0.4s ease-in-out;
+}
+  
+.item img:hover {
+filter: none;
+transform: scale(1.02);
+}
+
