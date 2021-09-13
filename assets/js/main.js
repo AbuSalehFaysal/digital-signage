@@ -103,6 +103,15 @@
       heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
   });
 
+  let heroCarouselIndicators2 = select("#hero-carousel-indicators2")
+  let heroCarouselItems2 = select('#heroCarousel2 .carousel-item', true)
+
+  heroCarouselItems2.forEach((item, index) => {
+    (index === 0) ?
+    heroCarouselIndicators2.innerHTML += "<li data-bs-target='#heroCarousel2' data-bs-slide-to='" + index + "' class='active'></li>":
+    heroCarouselIndicators2.innerHTML += "<li data-bs-target='#heroCarousel2' data-bs-slide-to='" + index + "'></li>"
+  });
+
   /**
    * Porfolio isotope and filter
    */
