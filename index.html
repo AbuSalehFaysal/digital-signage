@@ -41,6 +41,24 @@
   <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/owlcarousel/owl.theme.default.min.css">
 
+  <style>
+    .owl-prev,
+    .owl-next {
+      position: absolute;
+      top: 40%;
+      transform: translateY(-50%);
+      content: "next";
+    }
+
+    .owl-prev {
+      left: -2rem;
+    }
+
+    .owl-next {
+      right: -2rem;
+    }
+  </style>
+
   <!-- =======================================================
   * Author: Abu Saleh Faysal
   ======================================================== -->
@@ -1497,6 +1515,7 @@
       autoplayTimeout: 1000,
       autoplayHoverPause: true,
       nav: true,
+      navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
       responsive: {
         0: {
           items: 1
