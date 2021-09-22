@@ -640,6 +640,7 @@ section {
 .clients {
   padding: 15px 0;
   text-align: center;
+  background-color: #29aae1;
 }
 
 .clients img {
@@ -1292,6 +1293,10 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact {
+  background-color: #d9232d;
+}
+
 .contact .info {
   width: 100%;
 }
@@ -1336,7 +1341,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #d9232d;
 }
 
 .contact .php-email-form .form-group {
@@ -1945,14 +1950,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #4a5562;
+  background: #000;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #515d6a;
+  background: #000;
   padding: 60px 0 30px 0;
 }
 
