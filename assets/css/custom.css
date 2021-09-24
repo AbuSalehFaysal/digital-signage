@@ -39,7 +39,15 @@ ul.no-bullets {
 }
   
 .item img:hover {
-filter: none;
-transform: scale(1.02);
+    filter: none;
+    transform: scale(1.02);
+}
+
+.industries {
+    color: #444444;
+}
+
+.industries:hover {
+    color: #444444;
 }
 
