@@ -26,6 +26,7 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -318,7 +319,7 @@
         </section>
         <!-- End How it works Section -->
 
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5" data-aos="fade-up">
             <h2 class="text-uppercase text-center text-danger fw-bold">Advantages to Your Advertising Campaigns</h2>
             <p class="text-center">
                 Our digital signage advertising network contains collection of digital signs that display image, video,
@@ -331,7 +332,7 @@
             <div class="row white-smoke">
                 <div class="col-md-10">
                     <div class="row">
-                        <div class="col-md-4 offset-md-2 p-2 featureshover">
+                        <div class="col-md-4 offset-md-2 p-2 featureshover" data-aos="fade-right" data-aos-delay="1000">
                             <div class="text-center">
                                 <img width="80" height="80" class="img-fluid"
                                     src="assets/img/AdvertisingWithUs/icon1.png" alt="">
@@ -342,7 +343,7 @@
                                 engagement as the communication will be shaped by relevant local insights.
                             </p>
                         </div>
-                        <div class="col-md-4 offset-md-2 featureshover">
+                        <div class="col-md-4 offset-md-2 featureshover" data-aos="fade-left" data-aos-delay="1000">
                             <img src="assets/img/AdvertisingWithUs/f1.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
@@ -352,10 +353,10 @@
             <div class="row mt-2">
                 <div class="col-md-10">
                     <div class="row">
-                        <div class="col-md-4 offset-md-2 featureshover">
+                        <div class="col-md-4 offset-md-2 featureshover" data-aos="fade-right" data-aos-delay="1000">
                             <img src="assets/img/AdvertisingWithUs/f2.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-md-4 offset-md-2 p-2 featureshover">
+                        <div class="col-md-4 offset-md-2 p-2 featureshover" data-aos="fade-left" data-aos-delay="1000">
                             <div class="text-center">
                                 <img width="80" height="80" class="img-fluid"
                                     src="assets/img/AdvertisingWithUs/icon2.png" alt="">
@@ -373,8 +374,8 @@
             <div class="row mt-2 white-smoke">
                 <div class="col-md-10">
                     <div class="row">
-                        <div class="col-md-4 offset-md-2 p-2 featureshover">
-                            <div class="text-center">
+                        <div class="col-md-4 offset-md-2 p-2 featureshover" data-aos="fade-right" data-aos-delay="1000">
+                            <div class="text-center" data-aos="zoom-in" data-aos-delay="1000">
                                 <img width="80" height="80" class="img-fluid"
                                     src="assets/img/AdvertisingWithUs/icon3.png" alt="">
                             </div>
@@ -385,7 +386,7 @@
                                 audience engagement through impressions, the number of plays, and the expected outcomes.
                             </p>
                         </div>
-                        <div class="col-md-4 offset-md-2 featureshover">
+                        <div class="col-md-4 offset-md-2 featureshover" data-aos="fade-left" data-aos-delay="1000">
                             <img src="assets/img/AdvertisingWithUs/f3.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
@@ -395,10 +396,10 @@
             <div class="row mt-2">
                 <div class="col-md-10">
                     <div class="row">
-                        <div class="col-md-4 offset-md-2 featureshover">
+                        <div class="col-md-4 offset-md-2 featureshover" data-aos="fade-right" data-aos-delay="1000">
                             <img src="assets/img/AdvertisingWithUs/f4.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-md-4 offset-md-2 p-2 featureshover">
+                        <div class="col-md-4 offset-md-2 p-2 featureshover" data-aos="fade-left" data-aos-delay="1000">
                             <div class="text-center">
                                 <img width="80" height="80" class="img-fluid"
                                     src="assets/img/AdvertisingWithUs/icon4.png" alt="">
@@ -416,7 +417,7 @@
             <div class="row mt-2 white-smoke">
                 <div class="col-md-10">
                     <div class="row">
-                        <div class="col-md-4 offset-md-2 p-2 featureshover">
+                        <div class="col-md-4 offset-md-2 p-2 featureshover" data-aos="fade-right" data-aos-delay="1000">
                             <div class="text-center">
                                 <img width="80" height="80" class="img-fluid"
                                     src="assets/img/AdvertisingWithUs/icon5.png" alt="">
@@ -428,7 +429,7 @@
                                 them.
                             </p>
                         </div>
-                        <div class="col-md-4 offset-md-2 featureshover">
+                        <div class="col-md-4 offset-md-2 featureshover" data-aos="fade-left" data-aos-delay="1000">
                             <img src="assets/img/AdvertisingWithUs/f6.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
@@ -1832,9 +1833,14 @@
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
