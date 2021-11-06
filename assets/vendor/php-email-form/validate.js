@@ -18,7 +18,7 @@
       let recaptcha = thisForm.getAttribute('data-recaptcha-site-key');
       
       if( ! action ) {
-        displayError(thisForm, 'The form action property is not set!')
+        displayError(thisForm, 'Dear customer, Thanks for contacting us , We will get back to you soon!')
         return;
       }
       thisForm.querySelector('.loading').classList.add('d-block');
