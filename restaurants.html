@@ -26,12 +26,45 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/aos/aos.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <!-- Custome CSS File -->
   <link rel="stylesheet" href="assets/css/custom.css">
+
+  <!-- Owl Carousel File -->
+  <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/owlcarousel/owl.theme.default.min.css">
+
+  <style>
+    .owl-prev,
+    .owl-next {
+      position: absolute;
+      top: 40%;
+      transform: translateY(-50%);
+      content: "next";
+    }
+
+    .owl-prev {
+      left: -2rem;
+    }
+
+    .owl-next {
+      right: -2rem;
+    }
+
+
+    video {
+      width: 100%;
+      height: auto;
+    }
+  </style>
 
   <!-- =======================================================
   * Author: Abu Saleh Faysal
@@ -156,7 +189,7 @@
               <div class="container mt-5">
                 <h2 class="animate__animated animate__fadeInDown mt-5"><span class="red">AFLAX: RESTAURANTS</span>
                   <br>
-                  Digital Menu Boards for Restaurants 
+                  Digital Menu Boards for Restaurants
                 </h2>
               </div>
             </div>
@@ -183,7 +216,8 @@
         <div class="col-12 text-center">
           <h2 class="text-uppercase fw-bold text-danger">Digital Signage for Bar/Restaurants</h2>
           <div class="entry-content">
-            Our Digital Menu gives food retailers the potential to turn their traditional, static menu boards into vibrant, eye catching and dynamically changing digital posters with scheduling menu times.
+            Our Digital Menu gives food retailers the potential to turn their traditional, static menu boards into
+            vibrant, eye catching and dynamically changing digital posters with scheduling menu times.
           </div>
           <a href="contact.html" class="btn btn-danger mt-2">Contact</a>
         </div>
@@ -307,8 +341,8 @@
     <!-- ======= Start Our Product Section ======= -->
     <div class="container mt-5">
       <h2 class="text-center text-uppercase text-danger fw-bold">Our Digital Signage Features</h2>
-      <div class="row">
-        <div class="col-md-4 featureshover">
+      <div class="row d-flex justify-content-between" data-aos="fade-up">
+        <div class="col-md-3 featureshover border border-secondary">
           <div class="text-center">
             <img src="assets/img/digital-features/1.png" alt="" class="img-fluid text">
 
@@ -317,7 +351,7 @@
           <p class="">Showcase your social media onto your screen Including Twitter, YourTube and
             Instagram.</p>
         </div>
-        <div class="col-md-4 featureshover">
+        <div class="col-md-3 featureshover border border-secondary mt-2">
           <div class="text-center">
             <img src="assets/img/digital-features/2.png" alt="" class="img-fluid">
 
@@ -326,7 +360,7 @@
           <p class="">Upload your photos and videos to your content Library ready for use across your
             account.</p>
         </div>
-        <div class="col-md-4 featureshover">
+        <div class="col-md-3 featureshover border border-secondary mt-2">
           <div class="text-center">
             <img src="assets/img/digital-features/3.png" alt="" class="img-fluid">
 
@@ -336,8 +370,8 @@
             digital signage kiosks.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 featureshover">
+      <div class="row d-flex justify-content-between mt-3" data-aos="fade-up">
+        <div class="col-md-3 featureshover border border-secondary">
           <div class="text-center">
             <img src="assets/img/digital-features/4.png" alt="" class="img-fluid">
 
@@ -345,7 +379,7 @@
           <p class=""><b>Scheduling </b></p>
           <p class="bd-highlight">Save time and reduce your workload through digital signage scheduling.</p>
         </div>
-        <div class="col-md-4 featureshover">
+        <div class="col-md-3 featureshover border border-secondary">
           <div class="text-center">
             <img src="assets/img/digital-features/5.png" alt="" class="img-fluid">
 
@@ -353,7 +387,7 @@
           <p class=""><b>Control a Network of Screens </b></p>
           <p class="">Seamlessly control your network of digital menu boards from central hub.</p>
         </div>
-        <div class="col-md-4 featureshover">
+        <div class="col-md-3 featureshover border border-secondary">
           <div class="text-center">
             <img src="assets/img/digital-features/6.png" alt="" class="img-fluid">
 
@@ -367,7 +401,7 @@
 
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients white-smoke mt-5">
+    <section id="clients" class="clients sky-blue mt-5">
       <div class="container">
         <h2 class="text-danger fw-bold">CUSTOMERS</h2>
         <div class="row">
@@ -398,95 +432,132 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section>
+    <!-- End Clients Section -->
 
-    <!-- ======= Start Features Section ======= -->
-    <section class="products p-0 mt-5">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-danger fw-bold">Digital Signage Product for Retail Industry</h2>
-        <div class="row mt-3">
-          <div class="col-md-3">
+    <div class="container">
+      <br>
+      <h2 class="text-center text-uppercase text-danger fw-bold">Suggested Products
+      </h2>
+      <div class="row">
+        <div class="owl-carousel owl-theme" id="aboutus">
+          <div class="item">
+            <a href="rental.html">
+              <img src="assets/img/SuggestedProducts/POS Touch Screen.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>PoS Touch Screen</b></p>
+            </a>
+          </div>
+          <div class="item">
             <a href="indoor-lcd-display.html">
               <img src="assets/img/Indoor-LCD-Display/3.jpg" alt="" class="img-fluid border border-dark">
               <p class="text-center text-dark"><b>Indoor LCD Display</b></p>
             </a>
           </div>
-          <div class="col-md-3">
+          <div class="item">
             <a href="lcd-video-wall.html">
               <img src="assets/img/LCD-Video-Wall/2.png" alt="" class="img-fluid border border-dark">
               <p class="text-center text-dark"><b>LCD Video Wall</b></p>
             </a>
           </div>
-          <div class="col-md-3">
+          <div class="item">
             <a href="lcd-advertising-display.html">
               <img src="assets/img/LCD-Advertising-Display/2.jpg" alt="" class="img-fluid border border-dark">
               <p class="text-center text-dark"><b>LCD Advertising Display</b></p>
             </a>
           </div>
-          <div class="col-md-3">
+          <!-- <div class="item">
             <a href="outdoor-lcd-display.html">
               <img src="assets/img/Outdoor-LCD-Display/2.jpg" alt="" class="img-fluid border border-dark">
               <p class="text-center text-dark"><b>Outdoor LCD Display</b></p>
             </a>
-          </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-md-3">
+          </div> -->
+          <!-- <div class="item">
             <a href="advertising-light-box.html">
               <img src="assets/img/Advertising-Light-Box/1A.jpg" alt="" class="img-fluid border border-dark">
               <p class="text-center text-dark"><b>Advertising Lightbox</b></p>
             </a>
-          </div>
-          <div class="col-md-3">
+          </div> -->
+          <!-- <div class="item">
             <a href="frontlit-billboard.html">
               <img src="assets/img/frontlit-billboard/1A.jpg" alt="" class="img-fluid border border-dark">
               <p class="text-center text-dark"><b>Frontlit Billboard</b></p>
             </a>
-          </div>
-          <div class="col-md-3">
+          </div> -->
+          <div class="item">
             <a href="backlit-billboard.html">
               <img src="assets/img/backlit-billboard/1A.jpg" alt="" class="img-fluid border border-dark">
               <p class="text-center text-dark"><b>Backlit Billboard</b></p>
             </a>
           </div>
-          <div class="col-md-3">
+          <!-- <div class="item">
             <a href="led-screen-billboard.html">
               <img src="assets/img/LED-Screen-Billboard/1A.jpg" alt="" class="img-fluid border border-dark">
               <p class="text-center text-dark"><b>LED Screen Billboard</b></p>
             </a>
-          </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-md-3">
+          </div> -->
+          <!-- <div class="item">
             <a href="scrolling-billboard.html">
               <img src="assets/img/scrolling-billboard/1A.jpg" alt="" class="img-fluid border border-dark">
               <p class="text-center text-dark"><b>Scrolling Billboard</b></p>
             </a>
-          </div>
-          <div class="col-md-3">
+          </div> -->
+          <!-- <div class="item">
             <a href="scrolling-lightbox.html">
               <img src="assets/img/Scrolling-Lightbox/1A.jpg" alt="" class="img-fluid border border-dark">
               <p class="text-center text-dark"><b>Scrolling Lightbox</b></p>
             </a>
+          </div> -->
+          <div class="item">
+            <a href="rental.html">
+              <img src="assets/img/SuggestedProducts/ultra wide display.jpg" alt=""
+                class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Ultra Wide Display</b></p>
+            </a>
           </div>
-          <div class="col-md-3">
+          <div class="item">
             <a href="lamp-pole-lightbox.html">
               <img src="assets/img/Lamp-Pole-Lightbox/1A.jpg" alt="" class="img-fluid border border-dark">
               <p class="text-center text-dark"><b>Lamp Pole Lightbox</b></p>
             </a>
           </div>
-          <div class="col-md-3">
-            <a href="lamp-pole-display.html">
-              <img src="assets/img/Lamp-Pole-Display/tgg.png" alt="" class="img-fluid border border-dark">
-              <p class="text-center text-dark"><b>Lamp Pole Display</b></p>
+          <div class="item">
+            <a href="restaurants.html">
+              <img src="assets/img/SuggestedProducts/food-kiosk.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Self Service Kiosks</b></p>
             </a>
           </div>
+          <div class="item">
+            <a href="retail.html">
+              <img src="assets/img/SuggestedProducts/Free stand.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Free Stand</b></p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="rental.html">
+              <img src="assets/img/SuggestedProducts/tablet.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Tablet</b></p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="outdoor-lcd-display.html">
+              <img src="assets/img/SuggestedProducts/Outdoor Menu Boads.jpg" alt=""
+                class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Outdoor LCD Display</b></p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="scrolling-billboard.html">
+              <img src="assets/img/SuggestedProducts/Outdoor-Digital-A-Board.jpg" alt=""
+                class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Scrolling Bilboard</b></p>
+            </a>
+          </div>
+
+
+
         </div>
       </div>
-    </section>
-    <!-- End Features Section -->
-
-    <!-- ======= Contact Section ======= -->
+    </div <!--=======Contact Section=======-->
     <section id="contact" class="contact white-smoke">
       <div class="container">
         <h2 class="text-center"><b><span class="red">CONTACT US TODAY</span></b></h2>
@@ -650,6 +721,32 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 1000,
+      autoplayHoverPause: true,
+      nav: true,
+      navText: ["<h1 class='display-4 d-none d-sm-none d-md-block'><i class='fa fa-chevron-left'></i></h1>", "<h1 class='display-4 d-none d-sm-none d-md-block'><i class='fa fa-chevron-right'></i></h1>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -658,8 +755,15 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
+  <script src="assets/aos/aos.js"></script>
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
