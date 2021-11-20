@@ -5,16 +5,18 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Contact - Sailor Bootstrap Template</title>
+  <title>Bus Shelter</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -24,108 +26,283 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/aos/aos.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custome CSS File -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+
+  <!-- Owl Carousel File -->
+  <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/owlcarousel/owl.theme.default.min.css">
+
+  <style>
+    .owl-prev,
+    .owl-next {
+      position: absolute;
+      top: 40%;
+      transform: translateY(-50%);
+      content: "next";
+    }
+
+    .owl-prev {
+      left: -2rem;
+    }
+
+    .owl-next {
+      right: -2rem;
+    }
+
+
+    video {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+
   <!-- =======================================================
-  * Template Name: Sailor - v4.2.0
-  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
+  * Author: Abu Saleh Faysal
   ======================================================== -->
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
-
-      <h1 class="logo me-auto"><a href="index.html">Sailor</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-
-          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="about.html">About</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li>
-
-          <li><a href="contact.html" class="active">Contact</a></li>
-          <li><a href="index.html" class="getstarted">Get Started</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+  <div class="fixed-top">
+    <!-- ======= Header ======= -->
+    <div class="top-header">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-evenly">
+          <div class="col-md-4 text-center p-2">
+            <h5><i class="far fa-envelope"></i> mail@gmail.com</h5>
+          </div>
+          <div class="col-md-4 text-center p-2">
+            <a href="index.html"><img style="height: 100px;" class="img-fluid"
+                src="assets/img/logo/aflaxdigitalsignagelogowhite.png"></a>
+          </div>
+          <div class="col-md-4 text-center p-2">
+            <h5><i class="fas fa-phone-square-alt"></i>+8888888888</h5>
+          </div>
+        </div>
+      </div>
     </div>
-  </header><!-- End Header -->
+
+    <header id="header" class="d-flex align-items-center" style="background-color: #000; color: #ffffff;">
+      <div class="container d-flex justify-content-center">
+
+        <!-- <h1 class="logo me-auto"><a href="index.html"> <span class="red">Aflax</span><span class="orange">
+            Digital</span><span class="green"> Signage</span> </a></h1> -->
+        <!-- <h1 class="logo me-auto"><a href="index.html" class="logo me-auto"><img src="assets/img/logo/aflaxdigitalsignagelogowhite.png" alt="" class="img-fluid"></a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <!-- <li><a href="index.html" class="active">Home</a></li> -->
+
+            <li class="dropdown"><a class="active" href="#"><span>Home</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+
+                <li><a href="#aboutus">Welcome/About </a></li>
+                <li><a href="#howItWorks">How it works</a></li>
+                <li><a href="#whatWeDo">What we do</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#ourWork">Our work</a></li>
+                <li><a href="#industries">Solutions/Industries</a></li>
+                <li><a href="#customers">Our Customers</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown"><a href="#"><span>Sector/Solutions</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="retail.html">Retail</a></li>
+                <li><a href="restaurants.html">Bar / Restaurants</a></li>
+                <li><a href="hotels.html">Hotels</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="bank.html">Banks </a></li>
+                <li><a href="mall-supermarket.html">Malls & Supermarket</a></li>
+                <li><a href="travel-agent.html">Travel Agent </a></li>
+                <li><a href="hospitals.html">Hospitals</a></li>
+                <li><a href="car-show.html">Car Show </a></li>
+                <li><a href="gym.html">Gym / Fitness Centres</a></li>
+                <li><a href="airport.html">Airport</a></li>
+                <li><a href="event-places.html">Event places </a></li>
+                <li><a href="government-institutions.html">Government institutions </a></li>
+                <li><a href="stadium.html">Stadium's</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="indoor-lcd-display.html">Indoor LCD Display</a></li>
+                <li><a href="lcd-video-wall.html">LCD Video Wall</a></li>
+                <li><a href="lcd-advertising-display.html">LCD Advertising Display</a></li>
+                <li><a href="outdoor-lcd-display.html">Outdoor LCD Display</a></li>
+                <li><a href="advertising-light-box.html">Advertising Light Box</a></li>
+                <li><a href="frontlit-billboard.html">Frontlit Billboard</a></li>
+                <li><a href="backlit-billboard.html">Backlit Billboard</a></li>
+                <li><a href="led-screen-billboard.html">LED Screen Billboard</a></li>
+                <li><a href="scrolling-billboard.html">Scrolling Billboard</a></li>
+                <li><a href="scrolling-lightbox.html">Scrolling Lightbox</a></li>
+                <li><a href="lamp-pole-lightbox.html">Lamp Pole Lightbox</a></li>
+                <li><a href="lamp-pole-display.html">Lamp Pole Display</a></li>
+                <li><a href="windvane.html">Windvane</a></li>
+                <li><a href="bus-shelter.html">Bus Shelter</a></li>
+              </ul>
+            </li>
+            <li><a href="advertising-with-us.html">Advertise With Us</a></li>
+            <li><a href="rental.html">Rentals</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <!-- <li><a href="index.html" class="getstarted">Get Started</a></li> -->
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+      </div>
+    </header><!-- End Header -->
+  </div>
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" style="height: 90vh;">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Contact</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Contact</li>
-          </ol>
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner mt-5" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active mt-5" style="background-image: url(assets/img/slide/slide-a.png)">
+            <div class="carousel-container mt-5">
+              <div class="container mt-5">
+                <h2 class="animate__animated animate__fadeInDown mt-5">
+                  <span class="red">AFLAX: RETAIL</span> <br> PUT YOUR
+                  CUSTOMERS IN THE MOOD TO BUY
+                </h2>
+                <!-- <p class="animate__animated animate__fadeInUp">Create a fully-branded in-store experience that drives
+                      lasting results by creating an Interactive Customer Experience with Aflax Digital Signage. For retailers
+                      looking for something special, we offer a range of innovative digital signage retail solutions to make
+                      your store stand out. to buy again and again.</p> -->
+                <a href="#" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contact Us Today</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item mt-5" style="background-image: url(assets/img/slide/slide-b.jpg)">
+            <div class="carousel-container mt-5">
+              <div class="container mt-5">
+                <h2 class="animate__animated animate__fadeInDown mt-5"><span class="orange">AFLAX: RESTAURANTS</span>
+                  <br>
+                  COMPLETE THE DINING EXPERIENCE</h2>
+                <!-- <p class="animate__animated animate__fadeInUp">For a restaurant, the right sights and sounds complement
+                      great food and service to deliver a consistent experience. Remotely manage a network Of digital a signs
+                      and content using our cloud software. It’s all on the menu.</p> -->
+                <a href="#" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contact Us Today</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item mt-5" style="background-image: url(assets/img/slide/slide-c.jpg)">
+            <div class="carousel-container mt-5">
+              <div class="container mt-5">
+                <h2 class="animate__animated animate__fadeInDown mt-5"><span class="green">AFLAX: HEALTHCARE</span>
+                  <br>DELIVER
+                  A HEALTHY DOSE OF MUSIC – AND MORE
+                </h2>
+                <!-- <p class="animate__animated animate__fadeInUp">With Aflax’s proven healthcare
+                      solutions, you’ll provide a soothing and welcoming environment for your patients. Bundle solutions to
+                      reduce overhead costs for maximum ROI.</p> -->
+                <a href="#" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contact Us Today</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-item mt-5" style="background-image: url(assets/img/slide/slide-d.jpg)">
+            <div class="carousel-container mt-5">
+              <div class="container mt-5">
+                <h2 class="animate__animated animate__fadeInDown mt-5"><span class="red">AFLAX: CONVENIENCE STORE</span>
+                  <br>BRING CUSTOMERS BACK
+                </h2>
+                <!-- <p class="animate__animated animate__fadeInUp">Bringing customers back is all about meeting expectations
+                      and delivering a consistent experience. With our affordable and proven solutions, you’ll drive in-store
+                      traffic and build lasting customer loyalty for the repeat business that convenience stores rely on.
+                    </p> -->
+                <a href="#" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contact Us Today</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="carousel-item mt-5" style="background-image: url(assets/img/homepage-slider/Hospitality.jpg)">
+            <div class="carousel-container mt-5">
+              <div class="container mt-5">
+                <h2 class="animate__animated animate__fadeInDown mt-5"><span class="orange">AFLAX: HOSPITALITY</span>
+                  <br>PUT
+                  THEM IN THE MOOD TO STAY
+                </h2>
+                <!-- <p class="animate__animated animate__fadeInUp">Guests are always coming and going. Whatever
+                      your style – boutique, extended stay, or full service – the right audio, visuals and scent can work
+                      together to set the distinct mood that speaks to your brand and your clientele, ensuring lasting guest
+                      loyalty.</p> -->
+                <a href="#" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contact Us Today</a>
+              </div>
+            </div>
+          </div>
+
         </div>
+
+        <!-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+            </a>
+      
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+            </a> -->
 
       </div>
-    </section><!-- End Breadcrumbs -->
+    </section>
+    <!-- End Hero -->
+
+
+    <!-- End Features Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" style="margin-top: 0; padding-top: 2%;">
+      <h2 class="text-center"><b><span class="text-white">CONTACT US TODAY</span></b></h2>
       <div class="container">
-
-        <div>
+        <!-- <div>
           <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-        </div>
+        </div> -->
 
-        <div class="row mt-5">
+        <div class="row">
 
           <div class="col-lg-4">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4 class="text-white">Location:</h4>
+                <p class="text-white">A108 Adam Street, New York, NY 535022</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
+                <h4 class="text-white">Email:</h4>
+                <p class="text-white">info@aflaxdigitalsignage.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4 class="text-white">Call:</h4>
+                <p class="text-white">+1 5589 55488 55s</p>
               </div>
 
             </div>
@@ -134,27 +311,44 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="first_name" class="form-control" id="first_name"
+                    placeholder="Your First Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="text" class="form-control" name="last_name" id="last_name" placeholder="Your Last Name"
+                    required>
                 </div>
               </div>
-              <div class="form-group mt-3">
+              <div class="row mt-3">
+                <div class="col-md-6 form-group">
+                  <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                </div>
+                <div class="col-md-6 form-group mt-md-0">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" required>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-md-12 form-group">
+                  <input type="text" name="organization" class="form-control" id="organization"
+                    placeholder="Organization" required>
+                </div>
+
+              </div>
+              <!-- <div class="form-group mt-3">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
+              </div> -->
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button class="btn btn-light">Submit</button></div>
             </form>
 
           </div>
@@ -163,6 +357,7 @@
 
       </div>
     </section><!-- End Contact Section -->
+
 
   </main><!-- End #main -->
 
@@ -174,12 +369,12 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Sailor</h3>
+              <h3>Aflax Digital Signage</h3>
               <p>
                 A108 Adam Street <br>
                 NY 535022, USA<br><br>
                 <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                <strong>Email:</strong> info@aflaxdigitalsignage.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -194,33 +389,52 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="advertising-with-us.html">Advertise With
+                  Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="rental.html">Rental</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Industries</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="retail.html">Retail</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="restaurants.html">Bar / Restaurants</a>
+              </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hotels.html">Hotels</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="education.html">Education</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="bank.html">Bank</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Products</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="indoor-lcd-display.html">Indoor LCD
+                  Display</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="lcd-video-wall.html">LCD Video Wall</a>
+              </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="lcd-advertising-display.html">LCD
+                  Advertising Display</a>
+              </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="outdoor-lcd-display.html">Outdoor LCD
+                  Display</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="advertising-light-box.html">Advertising
+                  Light Box</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
 
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -228,19 +442,46 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Sailor</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>AFLAX DIGITAL SIGNAGE</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/sailor-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <!-- Designed by <a href="https://abusalehfaysal.github.io/">Abu Saleh Faysal</a> -->
       </div>
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 1000,
+      autoplayHoverPause: true,
+      nav: true,
+      navText: ["<h1 class='display-4 d-none d-sm-none d-md-block'><i class='fa fa-chevron-left'></i></h1>", "<h1 class='display-4 d-none d-sm-none d-md-block'><i class='fa fa-chevron-right'></i></h1>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -249,9 +490,15 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/aos/aos.js"></script>
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
