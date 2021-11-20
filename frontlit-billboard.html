@@ -26,16 +26,45 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/aos/aos.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <!-- Custome CSS File -->
   <link rel="stylesheet" href="assets/css/custom.css">
+
+  <!-- Owl Carousel File -->
+  <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/owlcarousel/owl.theme.default.min.css">
+
+  <style>
+    .owl-prev,
+    .owl-next {
+      position: absolute;
+      top: 40%;
+      transform: translateY(-50%);
+      content: "next";
+    }
+
+    .owl-prev {
+      left: -2rem;
+    }
+
+    .owl-next {
+      right: -2rem;
+    }
+
+
+    video {
+      width: 100%;
+      height: auto;
+    }
+  </style>
 
   <!-- =======================================================
   * Author: Abu Saleh Faysal
@@ -66,21 +95,27 @@
     <header id="header" class="d-flex align-items-center" style="background-color: #000; color: #ffffff;">
       <div class="container d-flex justify-content-center">
 
+        <!-- <h1 class="logo me-auto"><a href="index.html"> <span class="red">Aflax</span><span class="orange">
+            Digital</span><span class="green"> Signage</span> </a></h1> -->
+        <!-- <h1 class="logo me-auto"><a href="index.html" class="logo me-auto"><img src="assets/img/logo/aflaxdigitalsignagelogowhite.png" alt="" class="img-fluid"></a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
         <nav id="navbar" class="navbar">
           <ul>
+            <!-- <li><a href="index.html" class="active">Home</a></li> -->
+
             <li class="dropdown"><a class="active" href="#"><span>Home</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
 
-                <li><a href="about.html">Welcome/About </a></li>
-                <li><a href="#">How it works</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">What we do</a></li>
-                <li><a href="#">Customers/Our work</a></li>
-                <li><a href="#">Solutions/ Industries</a></li>
-                <li><a href="#">Contents Editing</a></li>
-                <li><a href="#">Screens / Players
-                    Ready to learn more / Contact us
-                  </a></li>
+                <li><a href="#aboutus">Welcome/About </a></li>
+                <li><a href="#howItWorks">How it works</a></li>
+                <li><a href="#whatWeDo">What we do</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#ourWork">Our work</a></li>
+                <li><a href="#industries">Solutions/Industries</a></li>
+                <li><a href="#customers">Our Customers</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
               </ul>
             </li>
 
@@ -120,10 +155,10 @@
                 <li><a href="bus-shelter.html">Bus Shelter</a></li>
               </ul>
             </li>
-            <li><a href="#">Case Studies</a></li>
-            <li><a href="#">Rentals</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="advertising-with-us.html">Advertise With Us</a></li>
+            <li><a href="rental.html">Rentals</a></li>
             <li><a href="contact.html">Contact Us</a></li>
+            <!-- <li><a href="index.html" class="getstarted">Get Started</a></li> -->
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -134,6 +169,7 @@
 
   <main id="main">
 
+    <!-- ======= Hero Section ======= -->
     <!-- ======= Hero Section ======= -->
     <section id="hero" style="height: 80vh;">
       <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -191,7 +227,9 @@
         <div class="col-12 text-center">
           <h2 class="text-uppercase fw-bold text-danger">Digital Signage for Frontlit Billboard</h2>
           <div class="entry-content">
-            Good picture performance: With professional production experience, Aflax Digital Signage’s frontlit banner material adopt separate raw material composition for different country in different season, to make the very same good performance.
+            Good picture performance: With professional production experience, Aflax Digital Signage’s frontlit banner
+            material adopt separate raw material composition for different country in different season, to make the very
+            same good performance.
           </div>
           <a href="contact.html" class="btn btn-danger mt-2">Contact</a>
         </div>
@@ -218,7 +256,9 @@
                   </h4>
                   <div class="entry-content">
                     <p>
-                        Aflax Digital Signage produce competitive frontlit banner for billboard, With good ink absorption, vivid picture performance and factory price,our billboard banner frontlit would bring you better business.
+                      Aflax Digital Signage produce competitive frontlit banner for billboard, With good ink absorption,
+                      vivid picture performance and factory price,our billboard banner frontlit would bring you better
+                      business.
                     </p>
                   </div>
                 </div>
@@ -239,10 +279,13 @@
                   <h4><b>Product Details</b></h4>
                   <div class="entry-content">
                     <p>
-                        Outdoor billboards mainly stand next to the highway, including highways, urban roads, overpasses and other major roads next to the establishment.   
+                      Outdoor billboards mainly stand next to the highway, including highways, urban roads, overpasses
+                      and other major roads next to the establishment.
                     </p>
                     <p>
-                        PVC frontlit banner is the main material to print the advertisement picture on the billboard. With more than 15 years experience manufacturering frontlit banner material, AFLAX DIGITAL SIGNAGE has established skilled researching and production team for frontlit billboard banner.
+                      PVC frontlit banner is the main material to print the advertisement picture on the billboard. With
+                      more than 15 years experience manufacturering frontlit banner material, AFLAX DIGITAL SIGNAGE has
+                      established skilled researching and production team for frontlit billboard banner.
                     </p>
                   </div>
                 </div>
@@ -280,15 +323,22 @@
                 <div class="carousel-item active">
                   <h4><b>AFLAX DIGITAL SIGNAGE frontlit banner for billboard with following advantages:</b></h4>
                   <div class="entry-content">
-                    <p> 
-                        <ul>
-                            <li>High tearing and breaking strength: with high yarn application, AFLAX DIGITAL SIGNAGE is able to produce stronger billboard banner material.</li>
-                            <li>Good picture performance: With professional production experience, AFLAX DIGITAL SIGNAGE frontlit banner material adopt seprate raw material composition for different country in different season, to make the very same good performance.</li>
-                            <li>Consistent quality: For orders from same customer, we use the same calendar, same lamination machine, same raw material to make the very same frontlit banner product at the same quality.</li>
-                        </ul>
+                    <p>
+                    <ul>
+                      <li>High tearing and breaking strength: with high yarn application, AFLAX DIGITAL SIGNAGE is able
+                        to produce stronger billboard banner material.</li>
+                      <li>Good picture performance: With professional production experience, AFLAX DIGITAL SIGNAGE
+                        frontlit banner material adopt seprate raw material composition for different country in
+                        different season, to make the very same good performance.</li>
+                      <li>Consistent quality: For orders from same customer, we use the same calendar, same lamination
+                        machine, same raw material to make the very same frontlit banner product at the same quality.
+                      </li>
+                    </ul>
                     </p>
                     <p>
-                        AFLAX DIGITAL SIGNAGE produce and supply frontlit banner for billboard to more than 90 countries all over the world. The consistant quality and competitive price has won good reputation among customers.
+                      AFLAX DIGITAL SIGNAGE produce and supply frontlit banner for billboard to more than 90 countries
+                      all over the world. The consistant quality and competitive price has won good reputation among
+                      customers.
                     </p>
                   </div>
                 </div>
@@ -299,12 +349,11 @@
       </div>
     </div>
 
-
     <!-- ======= Start Our Product Section ======= -->
     <div class="container mt-5">
       <h2 class="text-center text-uppercase text-danger fw-bold">Our Digital Signage Features</h2>
-      <div class="row">
-        <div class="col-md-4 featureshover">
+      <div class="row d-flex justify-content-between" data-aos="fade-up">
+        <div class="col-md-3 featureshover border border-secondary">
           <div class="text-center">
             <img src="assets/img/digital-features/1.png" alt="" class="img-fluid text">
 
@@ -313,7 +362,7 @@
           <p class="">Showcase your social media onto your screen Including Twitter, YourTube and
             Instagram.</p>
         </div>
-        <div class="col-md-4 featureshover">
+        <div class="col-md-3 featureshover border border-secondary mt-2">
           <div class="text-center">
             <img src="assets/img/digital-features/2.png" alt="" class="img-fluid">
 
@@ -322,7 +371,7 @@
           <p class="">Upload your photos and videos to your content Library ready for use across your
             account.</p>
         </div>
-        <div class="col-md-4 featureshover">
+        <div class="col-md-3 featureshover border border-secondary mt-2">
           <div class="text-center">
             <img src="assets/img/digital-features/3.png" alt="" class="img-fluid">
 
@@ -332,8 +381,8 @@
             digital signage kiosks.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 featureshover">
+      <div class="row d-flex justify-content-between mt-3" data-aos="fade-up">
+        <div class="col-md-3 featureshover border border-secondary">
           <div class="text-center">
             <img src="assets/img/digital-features/4.png" alt="" class="img-fluid">
 
@@ -341,7 +390,7 @@
           <p class=""><b>Scheduling </b></p>
           <p class="bd-highlight">Save time and reduce your workload through digital signage scheduling.</p>
         </div>
-        <div class="col-md-4 featureshover">
+        <div class="col-md-3 featureshover border border-secondary">
           <div class="text-center">
             <img src="assets/img/digital-features/5.png" alt="" class="img-fluid">
 
@@ -349,7 +398,7 @@
           <p class=""><b>Control a Network of Screens </b></p>
           <p class="">Seamlessly control your network of digital menu boards from central hub.</p>
         </div>
-        <div class="col-md-4 featureshover">
+        <div class="col-md-3 featureshover border border-secondary">
           <div class="text-center">
             <img src="assets/img/digital-features/6.png" alt="" class="img-fluid">
 
@@ -363,9 +412,9 @@
 
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients white-smoke mt-5">
+    <section id="clients" class="clients sky-blue mt-5">
       <div class="container">
-        <h2 class="text-danger fw-bold">CUSTOMERS</h2>
+        <h2 class="text-danger fw-bold">OUR CUSTOMERS</h2>
         <div class="row">
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
@@ -397,10 +446,9 @@
     </section><!-- End Clients Section -->
 
     <!-- ======= Start Features Section ======= -->
-    <section class="products p-0 mt-5">
+    <!-- <section class="products p-0 mt-5">
       <div class="container">
-        <h2 class="text-center text-uppercase text-danger fw-bold">Digital Signage Product for Retail Industry
-        </h2>
+        <h2 class="text-center text-uppercase text-danger fw-bold">Digital Signage Product for Retail Industry</h2>
         <div class="row mt-3">
           <div class="col-md-3">
             <a href="indoor-lcd-display.html">
@@ -480,71 +528,193 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+    <div class="container">
+      <br>
+      <h2 class="text-center text-uppercase text-danger fw-bold">Suggested Products
+      </h2>
+      <div class="row">
+        <div class="owl-carousel owl-theme" id="aboutus">
+          <div class="item">
+            <a href="rental.html">
+              <img src="assets/img/SuggestedProducts/POS Touch Screen.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>PoS Touch Screen</b></p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="indoor-lcd-display.html">
+              <img src="assets/img/Indoor-LCD-Display/3.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Indoor LCD Display</b></p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="lcd-video-wall.html">
+              <img src="assets/img/LCD-Video-Wall/2.png" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>LCD Video Wall</b></p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="lcd-advertising-display.html">
+              <img src="assets/img/LCD-Advertising-Display/2.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>LCD Advertising Display</b></p>
+            </a>
+          </div>
+          <!-- <div class="item">
+            <a href="outdoor-lcd-display.html">
+              <img src="assets/img/Outdoor-LCD-Display/2.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Outdoor LCD Display</b></p>
+            </a>
+          </div> -->
+          <!-- <div class="item">
+            <a href="advertising-light-box.html">
+              <img src="assets/img/Advertising-Light-Box/1A.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Advertising Lightbox</b></p>
+            </a>
+          </div> -->
+          <!-- <div class="item">
+            <a href="frontlit-billboard.html">
+              <img src="assets/img/frontlit-billboard/1A.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Frontlit Billboard</b></p>
+            </a>
+          </div> -->
+          <div class="item">
+            <a href="backlit-billboard.html">
+              <img src="assets/img/backlit-billboard/1A.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Backlit Billboard</b></p>
+            </a>
+          </div>
+          <!-- <div class="item">
+            <a href="led-screen-billboard.html">
+              <img src="assets/img/LED-Screen-Billboard/1A.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>LED Screen Billboard</b></p>
+            </a>
+          </div> -->
+          <!-- <div class="item">
+            <a href="scrolling-billboard.html">
+              <img src="assets/img/scrolling-billboard/1A.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Scrolling Billboard</b></p>
+            </a>
+          </div> -->
+          <!-- <div class="item">
+            <a href="scrolling-lightbox.html">
+              <img src="assets/img/Scrolling-Lightbox/1A.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Scrolling Lightbox</b></p>
+            </a>
+          </div> -->
+          <div class="item">
+            <a href="rental.html">
+              <img src="assets/img/SuggestedProducts/ultra wide display.jpg" alt=""
+                class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Ultra Wide Display</b></p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="lamp-pole-lightbox.html">
+              <img src="assets/img/Lamp-Pole-Lightbox/1A.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Lamp Pole Lightbox</b></p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="restaurants.html">
+              <img src="assets/img/SuggestedProducts/food-kiosk.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Self Service Kiosks</b></p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="retail.html">
+              <img src="assets/img/SuggestedProducts/Free stand.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Free Stand</b></p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="rental.html">
+              <img src="assets/img/SuggestedProducts/tablet.jpg" alt="" class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Tablet</b></p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="outdoor-lcd-display.html">
+              <img src="assets/img/SuggestedProducts/Outdoor Menu Boads.jpg" alt=""
+                class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Outdoor LCD Display</b></p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="scrolling-billboard.html">
+              <img src="assets/img/SuggestedProducts/Outdoor-Digital-A-Board.jpg" alt=""
+                class="img-fluid border border-dark">
+              <p class="text-center text-dark"><b>Scrolling Bilboard</b></p>
+            </a>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
     <!-- End Features Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact white-smoke">
+    <section id="contact" class="contact" style="margin-top: 0; padding-top: 2%;">
+      <h2 class="text-center"><b><span class="text-white">CONTACT US TODAY</span></b></h2>
       <div class="container">
-        <h2 class="text-center"><b><span class="red">CONTACT US TODAY</span></b></h2>
-        <h6 class="text-center text-primary"><b> Our current happy users started here...</b></h6>
-        <h2 class="text-center"><b>Book An Online Demo</b></h2>
         <!-- <div>
           <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
         </div> -->
 
-        <div class="row mt-5">
+        <div class="row">
 
           <div class="col-lg-4">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4 class="text-white">Location:</h4>
+                <p class="text-white">A108 Adam Street, New York, NY 535022</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
+                <h4 class="text-white">Email:</h4>
+                <p class="text-white">info@aflaxdigitalsignage.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4 class="text-white">Call:</h4>
+                <p class="text-white">+1 5589 55488 55s</p>
               </div>
 
             </div>
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0 white-smoke">
+          <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form white-smoke">
+            <form method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your First Name" required>
+                  <input type="text" name="first_name" class="form-control" id="first_name"
+                    placeholder="Your First Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Last Name" required>
+                  <input type="text" class="form-control" name="last_name" id="last_name" placeholder="Your Last Name"
+                    required>
                 </div>
               </div>
               <div class="row mt-3">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Email" required>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
                 </div>
                 <div class="col-md-6 form-group mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Phone" required>
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" required>
                 </div>
               </div>
               <div class="row mt-3">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Organization" required>
+                <div class="col-md-12 form-group">
+                  <input type="text" name="organization" class="form-control" id="organization"
+                    placeholder="Organization" required>
                 </div>
-                <div class="col-md-6 form-group mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Delivery Day" required>
-                </div>
+
               </div>
               <!-- <div class="form-group mt-3">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
@@ -557,7 +727,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Submit Demo Request</button></div>
+              <div class="text-center"><button class="btn btn-light">Submit</button></div>
             </form>
 
           </div>
@@ -578,12 +748,12 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Sailor</h3>
+              <h3>Aflax Digital Signage</h3>
               <p>
                 A108 Adam Street <br>
                 NY 535022, USA<br><br>
                 <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                <strong>Email:</strong> info@aflaxdigitalsignage.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -598,33 +768,52 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="advertising-with-us.html">Advertise With
+                  Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="rental.html">Rental</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Industries</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="retail.html">Retail</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="restaurants.html">Bar / Restaurants</a>
+              </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hotels.html">Hotels</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="education.html">Education</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="bank.html">Bank</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Products</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="indoor-lcd-display.html">Indoor LCD
+                  Display</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="lcd-video-wall.html">LCD Video Wall</a>
+              </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="lcd-advertising-display.html">LCD
+                  Advertising Display</a>
+              </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="outdoor-lcd-display.html">Outdoor LCD
+                  Display</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="advertising-light-box.html">Advertising
+                  Light Box</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
 
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -632,20 +821,46 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Sailor</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>AFLAX DIGITAL SIGNAGE</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/sailor-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <!-- Designed by <a href="https://abusalehfaysal.github.io/">Abu Saleh Faysal</a> -->
       </div>
     </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 1000,
+      autoplayHoverPause: true,
+      nav: true,
+      navText: ["<h1 class='display-4 d-none d-sm-none d-md-block'><i class='fa fa-chevron-left'></i></h1>", "<h1 class='display-4 d-none d-sm-none d-md-block'><i class='fa fa-chevron-right'></i></h1>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -654,9 +869,15 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/aos/aos.js"></script>
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
