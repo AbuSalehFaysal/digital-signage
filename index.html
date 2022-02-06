@@ -1694,7 +1694,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="mailto:info@aflax.digital" method="POST" enctype="multipart/form-data" name="EmailForm" style="margin-top: 25px;">
+            <form style="margin-top: 25px;">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="first_name" class="form-control" id="first_name"
@@ -1730,7 +1730,8 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button class="btn btn-light mt-5 btn-lg">Submit</button></div>
+              <div class="text-center"><button class="btn btn-light mt-5 btn-lg" onclick="sendMail()">Submit</button>
+              </div>
             </form>
 
           </div>
@@ -1764,12 +1765,18 @@
                 <strong>Time:</strong> 7:30 AM - 5:00 PM<br>
               </p>
               <div class="social-links mt-3">
-                <a href="https://twitter.com/AflaxDigital" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://fb.me/Aflaxdigitalsignage" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/aflax_digital/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="https://join.skype.com/invite/NNkT1gOVJ0eT" target="_blank" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="https://www.linkedin.com/in/aflax-digital/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                <a href="https://wa.me/+252611216363" target="_blank" class="linkedin"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://twitter.com/AflaxDigital" target="_blank" class="twitter"><i
+                    class="bx bxl-twitter"></i></a>
+                <a href="https://fb.me/Aflaxdigitalsignage" target="_blank" class="facebook"><i
+                    class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/aflax_digital/" target="_blank" class="instagram"><i
+                    class="bx bxl-instagram"></i></a>
+                <a href="https://join.skype.com/invite/NNkT1gOVJ0eT" target="_blank" class="google-plus"><i
+                    class="bx bxl-skype"></i></a>
+                <a href="https://www.linkedin.com/in/aflax-digital/" target="_blank" class="linkedin"><i
+                    class="bx bxl-linkedin"></i></a>
+                <a href="https://wa.me/+252611216363" target="_blank" class="linkedin"><i
+                    class="bx bxl-whatsapp"></i></a>
               </div>
             </div>
           </div>
@@ -1879,6 +1886,18 @@
 
   <script>
     AOS.init();
+  </script>
+
+  <script>
+    function sendMail() {
+      var first_name = document.getElementById("first_name").value;
+      var last_name = document.getElementById("last_name").value;
+      var email = document.getElementById("email").value;
+      var phone = document.getElementById("phone").value;
+      var organization = document.getElementById("organization").value;
+      // console.log(first_name, last_name, email, phone, organization);
+      window.location.replace(`mailto:info@aflax.digital?body=Name: ${first_name} ${last_name}, Email: ${email}, Phone: ${phone}, Organization: ${organization}&subject=${first_name} wants to contact you`);
+    }
   </script>
 
 </body>
