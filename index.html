@@ -65,6 +65,11 @@
       width: 100%;
       height: auto;
     }
+
+    .red-hover-text:hover {
+      color: #d9232d;
+      cursor: pointer;
+    }
   </style>
 
   <!-- =======================================================
@@ -80,14 +85,14 @@
       <div class="container">
         <div class="row d-flex align-items-center justify-content-evenly">
           <div class="col-md-4 text-center p-2">
-            <h5><i class="far fa-envelope"></i> info@aflax.digital</h5>
+            <h5 class="red-hover-text"><i class="far fa-envelope"></i>info@aflax.digital</h5>
           </div>
           <div class="col-md-4 text-center p-2">
             <a href="index.html"><img style="height: 100px;" class="img-fluid"
                 src="assets/img/logo/aflaxdigitalsignagelogowhite.png"></a>
           </div>
           <div class="col-md-4 text-center p-2">
-            <h5><i class="fas fa-phone-square-alt"></i>+252 611216363</h5>
+            <h5 class="red-hover-text"><i class="fas fa-phone-square-alt"></i>+252 611216363</h5>
           </div>
         </div>
       </div>
@@ -1896,7 +1901,7 @@
       var phone = document.getElementById("phone").value;
       var organization = document.getElementById("organization").value;
       // console.log(first_name, last_name, email, phone, organization);
-      window.location.replace(`mailto:info@aflax.digital?body=Name: ${first_name} ${last_name}, Email: ${email}, Phone: ${phone}, Organization: ${organization}&subject=${first_name} wants to contact you`);
+      window.location.replace(`mailto:info@aflax.digital?body=Name: ${first_name} ${last_name}, Email: ${email}, Phone: ${phone}, Organization: ${organization}&subject=${first_name} ${last_name} wants to contact you`);
     }
   </script>
 
