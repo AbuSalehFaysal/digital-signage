@@ -140,3 +140,8 @@ ul.no-bullets {
     background-color: #29aae1;
   }
 
+  .red-hover-text:hover {
+    color: red;
+    cursor: pointer;
+  }
+
