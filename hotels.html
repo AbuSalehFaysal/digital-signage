@@ -656,12 +656,9 @@
     <!-- End Features Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact" style="margin-top: 0; padding-top: 2%;">
+    <section id="contact" class="contact" style="margin-top: 0; padding: 20px 0;">
       <h2 class="text-center"><b><span class="text-white">CONTACT US TODAY</span></b></h2>
       <div class="container">
-        <!-- <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-        </div> -->
 
         <div class="row">
 
@@ -669,20 +666,22 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4 class="text-white">Location:</h4>
-                <p class="text-white">A108 Adam Street, New York, NY 535022</p>
+                <h4 class="text-white">Our Head Office:</h4>
+                <p class="text-white">Maka Al-mukarama Street, <br> Hodan District <br>
+                  Mogadishu, Somalia</p>
               </div>
 
               <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4 class="text-white">Email:</h4>
-                <p class="text-white">info@aflaxdigitalsignage.com</p>
+                <i class="bi bi-chat-right-dots-fill"></i>
+                <h4 class="text-white">Contact Us:</h4>
+                <p class="text-white" style="color: #ffffff;">Tel: +252 611216363<br> Email:
+                  info@aflax.digital <br> Website: www.aflax.digital</p>
               </div>
 
               <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4 class="text-white">Call:</h4>
-                <p class="text-white">+1 5589 55488 55s</p>
+                <i class="bi bi-clock"></i>
+                <h4 class="text-white">Time:</h4>
+                <p class="text-white">7:30 AM - 5:00 PM</p>
               </div>
 
             </div>
@@ -691,7 +690,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form method="post" role="form" class="php-email-form">
+            <form style="margin-top: 25px;">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="first_name" class="form-control" id="first_name"
@@ -715,20 +714,14 @@
                   <input type="text" name="organization" class="form-control" id="organization"
                     placeholder="Organization" required>
                 </div>
-
               </div>
-              <!-- <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div> -->
-              <div class="my-3">
+              <div class="my-3 d-none">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button class="btn btn-light">Submit</button></div>
+              <div class="text-center"><button class="btn btn-light mt-5 btn-lg" onclick="sendMail()">Submit</button>
+              </div>
             </form>
 
           </div>
@@ -736,7 +729,8 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Contact Section -->
 
 
   </main><!-- End #main -->
